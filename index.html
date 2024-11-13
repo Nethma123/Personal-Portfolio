@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Nethma</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Nethma Adhikari</h1>
+            <p>Currently I'm a student of SLTC Research University, where I'm persuing my bachelor's degree in Cybersecurity.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class='bx bxl-youtube'></i></a>
+                <a href="https://github.com" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            <a href="https://www.linkedin.com" target="_blank" class="btn">View LinkedIn</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Ethical Hacker</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-lock'></i>
+                    <h3>Security architect</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home1.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about1.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Nethma Adhikari,
+                a passionate web developer who enjoys learning new technologies
+                and solving problems with code!
+            </h3>
+            <p>I am currently an undergraduate student at SLTC Research University. 
+                I am pursuing a degree in cyber security. 
+                I tend to get along well with others. This in turn has helped me 
+                very much to work efficiently in groups. As of now, I am a student, 
+                an enthusiastic web developer,
+                 a passionate cyber security analyst, and a vivid traveler.
+            </p>
+            
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+            <div class="content-container">
+                <h2 class="heading">Education, <span>Skills & </span>Experience</h2>
+        
+                <div class="content-wrapper">
+                    <div class="content-box mySwiper">
+                        <div class="content-content swiper-wrapper">
+                            <div class="content-slide swiper-slide">
+                                <h3>Education</h3>
+                                <h4><ul>
+                                    <li>Following a bsc.(hons) Cyber Security Degree</li>
+                                    <li><span>Certificate of Computer Literacy</span></li>
+                                    <li>Certificate of Graphic Designing</li>
+                                    <li><span>Certificate of English</span></li>
+                            </ul></h4>
+                            </div>
+                            <div class="content-slide swiper-slide">
+                            <h3>Skills</h3>
+                            <h4><ul>
+                                    <li><span>UI/UX</span> - Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span> - Web App Development</li>
+                            </ul></h4>
+                            </div>
+                            <div class="content-slide swiper-slide">
+                            <h3>Experience</h3>
+                            <h4><ul>
+                                    <li><span>UI/UX Design Training at ET Institute</span> 2023 - current</li>
+                                    <li><span>Team lead at StarApp LLC.</span> 2020 - 2023</li>
+                            </ul></h4>
+                            </div>
+                            </div>
+        
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>-----------------------------</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>------------------------------</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            
+            <div class="portfolio-box">
+                <img src="images/work-01.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>HACK 2024</h4>
+                    <p>Our team receiving certficate</p>
+                    <a href="images/work-01.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/work-02.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>HACK 2024</h4>
+                    <p>Our team receiving certficate</p>
+                    <a href="images/work-02.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+    
+            <div class="portfolio-box">
+                <img src="images/work-03.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>HACK 2024</h4>
+                    <p>Our team receiving certficate</p>
+                    <a href="images/work-03.png"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="3" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="sctipt.js"></script>
+</body>
+
+</html>
